@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  height: 80vh;
+  background-color: rgb(240, 242, 242);
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.last img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.second h1 {
+  font-size: 45px;
+}
+
+.second p {
+  font-size: 17px;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(245, 245, 232);
+  font-size: 15px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+a {
+  margin: 10px;
+  color: black;
+}
+
+.first img {
+  width: 150px;
+  border-radius: 20px;
+}
