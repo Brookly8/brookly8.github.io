@@ -17,17 +17,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 20%;
 }
 
 .second {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.last img {
-  height: 100%;
-  border-radius: 10px;
+  width: 50%;
 }
 
 .second h1 {
@@ -36,6 +33,11 @@
 
 .second p {
   font-size: 17px;
+}
+
+.last img {
+  border-radius: 10px;
+  margin: 80px;
 }
 
 button {
