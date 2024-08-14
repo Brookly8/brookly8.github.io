@@ -15,7 +15,7 @@ button.addEventListener("click", () => {
   <p>${tasks.id}</p>
   <p>${tasks.title}</p>
   <p>${tasks.status}</p>
-  <button class="removeButton"></button>
+  <button class="removeButton"><i class="fa-solid fa-trash"></i></button>
   </div>`;
   tasksDiv.insertAdjacentHTML("beforeend", task);
 

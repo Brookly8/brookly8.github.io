@@ -57,4 +57,13 @@ input {
 .tasksMain {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  background-color: wheat;
+}
+
+.removeButton {
+  background-color: white;
+  width: 50px;
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 8px;
 }
