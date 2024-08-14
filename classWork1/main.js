@@ -24,6 +24,14 @@ function render() {
   if (value) {
     input.value = "";
   }
+
+  const removeButtons = document.querySelectorAll(".removeButton");
+
+  removeButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      this.parentElement.remove();
+    });
+  });
 }
 
 button.addEventListener("click", () => {
