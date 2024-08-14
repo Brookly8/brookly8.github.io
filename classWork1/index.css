@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  background-color: antiquewhite;
+  display: flex;
+  width: 70vw;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 800px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(180, 178, 178);
+}
+
+.addTaskButton {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(180, 178, 178);
+  width: 150px;
+}
+
+.addTask {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px 5px 30px;
+}
+
+.tasksHeader {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.task {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tasksMain {
+  display: flex;
+  flex-direction: column;
+}

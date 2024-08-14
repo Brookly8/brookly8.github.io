@@ -17,14 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20%;
 }
 
 .second {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
 }
 
 .second h1 {
@@ -35,9 +33,9 @@
   font-size: 17px;
 }
 
-.last img {
-  border-radius: 10px;
-  margin: 80px;
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 button {
