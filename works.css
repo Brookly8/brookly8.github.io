@@ -1,0 +1,15 @@
+.toDoList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
