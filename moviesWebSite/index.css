@@ -20,6 +20,7 @@
   background-color: #eff8ff;
   border-radius: 8px;
   border: 1px solid black;
+  overflow: auto;
 }
 
 .movie {

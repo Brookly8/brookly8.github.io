@@ -27,27 +27,30 @@ function render() {
 
   addFavorite.forEach((button) => {
     const btn =
-      button.parentElement.previousElementSibling.previousElementSibling
-        .firstElementChild.textContent;
+      button.parentElement.previousElementSibling.previousElementSibling.firstElementChild.textContent.slice(
+        7
+      );
 
     button.addEventListener("click", () => {
-      favoriteMovies.push(btn);
+      if (!favoriteMovies.includes(btn)) {
+        favoriteMovies.push(btn);
 
-      const finalTitle = favoriteMovies[favoriteMovies.length - 1].slice(7);
-      const favorites = `
-      <div class = "FavContainer">
-      <li>${finalTitle}</li>
-      <i class="fa-solid fa-trash removeBtn"></i>
-      </div>`;
-      rightSide.insertAdjacentHTML("beforeend", favorites);
+        const finalTitle = favoriteMovies[favoriteMovies.length - 1];
+        const favorites = `
+        <div class = "FavContainer">
+        <li>${finalTitle}</li>
+        <i class="fa-solid fa-trash removeBtn"></i>
+        </div>`;
+        rightSide.insertAdjacentHTML("beforeend", favorites);
 
-      const removeButtons = document.querySelectorAll(".removeBtn");
+        const removeButtons = document.querySelectorAll(".removeBtn");
 
-      removeButtons.forEach((button) => {
-        button.addEventListener("click", function () {
-          this.parentElement.remove();
+        removeButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            this.parentElement.remove();
+          });
         });
-      });
+      }
     });
   });
 }
