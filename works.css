@@ -21,7 +21,7 @@ a {
   width: 400px;
   border: 0px;
   border-radius: 8px;
-  background-color: rgb(105, 137, 241);
+  background-color: rgba(245, 139, 139, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
