@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: rgb(206, 203, 203);
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  background-color: rgba(255, 106, 0, 0.554);
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  margin: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 24px;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.topDiv p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.number {
+  width: 250px;
+  height: 25px;
+}
+
+.middleDiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selectDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.selectDiv p {
+  padding: 0px;
+  margin: 0px;
+}
+
+select {
+  width: 210px;
+  height: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.resultField {
+  background-color: white;
+  border-radius: 6px;
+  width: 98%;
+  height: 276px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
