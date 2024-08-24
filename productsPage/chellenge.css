@@ -50,3 +50,8 @@ button {
   border-radius: 8px;
   background-color: antiquewhite;
 }
+
+.goBack {
+  padding: 20px 40px 20px 40px;
+  display: none;
+}

@@ -6,6 +6,7 @@ const description = document.querySelector("#description");
 const number = document.querySelector(".number");
 const addProduct = document.querySelector("button");
 const main = document.querySelector(".main");
+const back = document.querySelector(".goBack");
 
 addProduct.addEventListener("click", (e) => {
   const newObject = {
@@ -26,6 +27,7 @@ const add = async (product) => {
     });
     const data = await response.json();
     console.log(data);
+    back.style.display = "flex";
   } catch (error) {
     console.log(error);
   }
