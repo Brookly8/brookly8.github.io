@@ -1,0 +1,209 @@
+body {
+  background-color: #29314b;
+  color: white;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  padding-left: 1%;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  background-color: #313c5d;
+  box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.rate {
+  background-color: #eb5913;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.about {
+  padding: 10px;
+}
+
+.movie p {
+  color: rgb(207, 206, 206);
+}
+
+.backGround {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.movie {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.movie:hover,
+.movie:focus,
+.movie:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.favorites {
+  height: 40px;
+  width: 100px;
+  background-color: #eb5913;
+  color: white;
+  border: 0px;
+}
+
+.favorites {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.favorites:hover,
+.favorites:focus,
+.favorites:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.header {
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+a {
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  background-color: #eb5913;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+a:hover,
+a:focus,
+a:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+input {
+  width: 75%;
+  background-color: #3e4c76;
+  color: white;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 17px;
+}
+
+.searchBtn {
+  width: 10%;
+  background-color: #eb5913;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.searchBtn {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.searchBtn:hover,
+.searchBtn:focus,
+.searchBtn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.genres {
+  height: 40px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genres p {
+  padding: 5px 10px 5px 10px;
+  background-color: #3e4c76;
+  border-radius: 15px;
+}
+
+.genres p {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.genres p:hover,
+.genres p:focus,
+.genres p:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #29314b;
+  color: white;
+}
+
+.main {
+  width: 50vw;
+  background-color: #3d4768;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.top {
+  display: flex;
+}
+
+img {
+  margin-right: 5%;
+  width: 45%;
+}
+
+h2 {
+  margin-bottom: 10%;
+}
+
+h3 {
+  margin-bottom: 10%;
+}
+
+.castDiv {
+  margin-top: 10%;
+}
+
+.overview {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
