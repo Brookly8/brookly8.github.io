@@ -40,3 +40,10 @@ h3 {
   margin-bottom: 5%;
   font-size: 20px;
 }
+
+.cast {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 14;
+  overflow: hidden;
+}
