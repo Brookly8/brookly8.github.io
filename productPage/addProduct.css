@@ -1,0 +1,97 @@
+.createProduct {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+}
+
+.newProduct {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-right: 3%;
+  gap: 3%;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.conteiner input {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(199, 198, 198);
+}
+
+.conteiner textarea {
+  border-radius: 8px;
+  border: 1px solid rgb(199, 198, 198);
+}
+.conteiner textarea::placeholder {
+  padding: 8px;
+}
+
+.mainImages {
+  display: flex;
+  gap: 15px;
+}
+
+.addImages {
+  width: 20%;
+  height: 120px;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadItems {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 243, 243);
+  border: 1px dashed rgb(199, 198, 198);
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+.price input {
+  width: 150px;
+}
+
+.priceInputs input::placeholder {
+  color: rgb(192, 190, 190);
+}
+
+.submitButton button {
+  width: 20%;
+  height: 40px;
+  background-color: #3066ec;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.imageContainer input {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(199, 198, 198);
+}
+
+#products {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(199, 198, 198);
+}

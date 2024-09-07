@@ -1,0 +1,229 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(242, 240, 240);
+}
+
+.mainHeader {
+  display: flex;
+  height: 80px;
+  gap: 5px;
+}
+
+.mainFirst {
+  display: flex;
+  height: 80px;
+  width: 20%;
+  background-color: white;
+  align-items: center;
+  box-shadow: 3px 3px 5px #a6a6a6, -2px -2px 3px rgba(255, 255, 255, 0.5);
+}
+
+.mainSecond {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 3px 3px 5px #a6a6a6, -2px -2px 3px rgba(255, 255, 255, 0.5);
+}
+
+.mainSecond input {
+  border: 0px;
+  margin-left: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+  width: 75%;
+  height: 60%;
+}
+
+.mainSecond input::placeholder {
+  color: #a6a6a6;
+  font-size: 18px;
+}
+
+.search {
+  position: absolute;
+  left: 21%;
+  top: 2.8%;
+}
+
+.userAvatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+#avatarDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sideBar {
+  margin-top: 5px;
+  width: 20%;
+  height: 102vh;
+  background-color: white;
+  box-shadow: 3px 3px 5px #a6a6a6, -2px -2px 3px rgba(255, 255, 255, 0.5);
+}
+
+.barItem {
+  display: flex;
+  gap: 5%;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  color: #5b5a5a;
+  font-size: 20px;
+}
+
+.barItems {
+  padding: 10% 0% 0px 10%;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #d9d8d8;
+  margin-top: 10%;
+}
+
+main {
+  display: flex;
+}
+
+.mainContent {
+  width: 80vw;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.mainContentCenter {
+  border-radius: 8px;
+  width: 95%;
+  background-color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 12px 15px 12px;
+  box-shadow: 3px 3px 5px #a6a6a6, -2px -2px 3px rgba(255, 255, 255, 0.5);
+}
+
+.mainConteinerBottom {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  width: 95%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 12px 15px 12px;
+  box-shadow: 3px 3px 5px #a6a6a6, -2px -2px 3px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.cartItem {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  width: 95%;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  gap: 100px;
+  padding: 15px 12px 15px 12px;
+  box-shadow: 3px 3px 5px #a6a6a6, -2px -2px 3px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.deleteFromCart {
+  min-width: 150px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.deleteFromCart {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.deleteFromCart:hover,
+.deleteFromCart:focus,
+.deleteFromCart:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.mainConteinerBottom img {
+  max-width: 400px;
+}
+
+.cartBtn {
+  display: flex;
+  align-items: end;
+}
+
+.cartBtn button {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.addToCart {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.addToCart:hover,
+.addToCart:focus,
+.addToCart:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.order {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 2%;
+  margin-top: 1%;
+  background-color: white;
+}
+
+.order {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.order:hover,
+.order:focus,
+.order:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
