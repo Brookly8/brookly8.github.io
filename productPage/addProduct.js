@@ -31,6 +31,7 @@ async function addProduct(product) {
     );
     console.log(data);
     alert("Product successfully added");
+    location.href = "/productPage/index.html";
   } catch (error) {
     console.log(error);
   }
